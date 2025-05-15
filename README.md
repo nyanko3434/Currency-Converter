@@ -43,9 +43,9 @@ currency-converter/<br>
 
 ---
 
-### ⚙️ Setup & Run
+### Setup & Run
 
-#### 🔧 Local Development
+#### Local Development
 
 ```bash
 # Clone the repository
@@ -67,3 +67,10 @@ uvicorn app.main:app --reload
 
 ```
 Visit: http://localhost:8000/docs
+
+#### Docker
+
+```bash
+docker build -t currency-converter .
+docker run --env-file .env -p 8000:8000 currency-converter
+```

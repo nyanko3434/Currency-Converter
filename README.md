@@ -14,30 +14,30 @@ Project to get exchange rate in realtime with the help of fastapi and API KEY fr
 
 <h3>Project Structure</h3>
 
-currency-converter/
-├── app/
-│   ├── __init__.py
-│   ├── main.py                 
-│   ├── api/
-│   │   ├── __init__.py
-│   │   └── v1/
-│   │       ├── __init__.py
-│   │       └── routes.py       
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── config.py           
-│   │   └── currency.py         
-│   └── models/
-│       ├── __init__.py
-│       └── schemas.py              
-│
-├── tests/
-│   ├── test_convert.py         
-│   └── test_list.py
-├── .env               
-├── .gitignore
-├── Dockerfile
-├── docker-compose.yml       
-├── requirements.txt
-└── README.md
+currency-converter/<br>
+├── app/<br>
+│   ├── __init__.py<br>
+│   ├── main.py <br>                
+│   ├── api/<br>
+│   │   ├── __init__.py<br>
+│   │   └── v1/<br>
+│   │       ├── __init__.py<br>
+│   │       └── routes.py      <br> 
+│   ├── core/<br>
+│   │   ├── __init__.py<br>
+│   │   ├── config.py      <br>     
+│   │   └── currency.py        <br> 
+│   └── models/<br>
+│       ├── __init__.py<br>
+│       └── schemas.py     <br>         
+│<br>
+├── tests/<br>
+│   ├── test_convert.py<br>         
+│   └── test_list.py<br>
+├── .env               <br>
+├── .gitignore<br>
+├── Dockerfile<br>
+├── docker-compose.yml<br>       
+├── requirements.txt<br>
+└── README.md<br>
 

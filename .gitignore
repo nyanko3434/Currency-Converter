@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Pytest
+.cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+
+# mypy / Pylint / Bandit / Ruff
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+reports/
+*.lint
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pre-commit
+.pre-commit-config.yaml
+.pre-commit/
+
+# MkDocs site build
+site/
+
+# Test outputs
+test-results/
+junit.xml

@@ -12,4 +12,32 @@ Project to get exchange rate in realtime with the help of fastapi and API KEY fr
 
 <h2>Getting Started</h2>
 
- Project Structure
+<h3>Project Structure</h3>
+
+currency-converter/
+├── app/
+│   ├── __init__.py
+│   ├── main.py                 
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── v1/
+│   │       ├── __init__.py
+│   │       └── routes.py       
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py           
+│   │   └── currency.py         
+│   └── models/
+│       ├── __init__.py
+│       └── schemas.py              
+│
+├── tests/
+│   ├── test_convert.py         
+│   └── test_list.py
+├── .env               
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml       
+├── requirements.txt
+└── README.md
+

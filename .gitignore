@@ -68,3 +68,6 @@ junit.xml
 
 # Vedio in Unsuitable Format
 *.mkv
+
+#Submission files
+submission_links.txt

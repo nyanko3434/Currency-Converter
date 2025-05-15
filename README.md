@@ -37,7 +37,7 @@ currency-converter/<br>
 ├── .env               <br>
 ├── .gitignore<br>
 ├── Dockerfile<br>
-├── docker-compose.yml
+├── docker-compose.yml<br>
 ├── requirements.txt<br>
 └── README.md<br>
 

@@ -60,7 +60,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Create .env file
-echo "EXCHANGE_RATE_API_KEY=your_api_key_here" > .env
+echo "EXCHANGE_RATE_API_KEY=your_api_key_here" > .env # You have to get an api key from https://api.exchangerate.host
 
 # Run the app
 uvicorn app.main:app --reload

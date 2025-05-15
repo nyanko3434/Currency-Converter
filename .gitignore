@@ -65,3 +65,6 @@ site/
 # Test outputs
 test-results/
 junit.xml
+
+# Vedio in Unsuitable Format
+*.mkv

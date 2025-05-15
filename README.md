@@ -1,7 +1,7 @@
 # Currency-Converter
 Project to get exchange rate in realtime with the help of fastapi and API KEY from exchangerate.host
 
-<h3>Features:</h3>
+## Features:
 - Convert currency values (/convert)
 
 - Fetch list of supported currencies (/currencies)
@@ -10,9 +10,9 @@ Project to get exchange rate in realtime with the help of fastapi and API KEY fr
 
 - RESTful, versioned API (/api/v1)
 
-<h2>Getting Started</h2>
+## Getting Started
 
-<h3>Project Structure</h3>
+### Project Structure
 
 currency-converter/<br>
 ├── app/<br>
@@ -41,3 +41,29 @@ currency-converter/<br>
 ├── requirements.txt<br>
 └── README.md<br>
 
+---
+
+### ⚙️ Setup & Run
+
+#### 🔧 Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/currency-converter.git
+cd currency-converter
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create .env file
+echo "EXCHANGE_RATE_API_KEY=your_api_key_here" > .env
+
+# Run the app
+uvicorn app.main:app --reload
+
+```
+Visit: http://localhost:8000/docs

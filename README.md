@@ -32,8 +32,8 @@ currency-converter/<br>
 │       └── schemas.py             
 │<br>
 ├── tests/<br>
-│   ├── test_convert.py<br>         
-│   └── test_list.py
+│   ├── test_convert.py       
+│   └── test_list.py<br>
 ├── .env               <br>
 ├── .gitignore<br>
 ├── Dockerfile<br>
